@@ -13,17 +13,9 @@
 :root{
   --bg:#F2F2F7; --card:#FFFFFF; --ink:#1C1C1E; --sub:#8E8E93; --sep:#E5E5EA; --fill:#F2F2F7;
   --blue:#007AFF; --indigo:#5856D6; --orange:#FF9500; --green:#34C759; --red:#FF3B30;
-  --navy1:#17365F; --navy2:#0B1F3A; --on:#FFFFFF;
+  --navy1:#17365F; --navy2:#0B1F3A; --on:#FFFFFF; color-scheme:light;
   --f:"IBM Plex Sans Thai",-apple-system,"Leelawadee UI",Tahoma,sans-serif;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#000000; --card:#1C1C1E; --ink:#F2F2F7; --sub:#98989F; --sep:#38383A; --fill:#2C2C2E;
-  --blue:#0A84FF; --indigo:#5E5CE6; --orange:#FF9F0A; --green:#30D158; --red:#FF453A;
-  --navy1:#1A3D6B; --navy2:#0E2747; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#000000; --card:#1C1C1E; --ink:#F2F2F7; --sub:#98989F; --sep:#38383A; --fill:#2C2C2E;
-  --blue:#0A84FF; --indigo:#5E5CE6; --orange:#FF9F0A; --green:#30D158; --red:#FF453A;
-  --navy1:#1A3D6B; --navy2:#0E2747; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:15px;line-height:1.5;
